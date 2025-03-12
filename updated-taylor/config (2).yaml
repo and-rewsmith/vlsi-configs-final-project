@@ -119,14 +119,13 @@ FP_PDN_SKIPTRIM: true
 # FP_MACRO_VERTICAL_HALO: 30
 
 # Resizer configuration for hold fixing
-PL_RESIZER_HOLD_SLACK_MARGIN: 0.1  # Increased from default
-PL_RESIZER_SETUP_SLACK_MARGIN: 0.05
+# PL_RESIZER_HOLD_SLACK_MARGIN: 2.0  # Increased from default
+# PL_RESIZER_HOLD_MAX_BUFFER_PERCENT: 100  # Allow more hold buffers
+# PL_RESIZER_SETUP_SLACK_MARGIN: 0.2
 
 # Resizer steps configuration
-PL_RESIZER_MAX_SLEW_MARGIN: 20  # More margin for max transition fixing
-PL_RESIZER_MAX_CAP_MARGIN: 20   # More margin for max cap fixing
-GLB_RESIZER_MAX_SLEW_MARGIN: 10 # For post-route fixing
-GLB_RESIZER_MAX_CAP_MARGIN: 10  # For post-route fixing
-
-PL_RESIZER_HOLD_MAX_BUFFER_PERCENT: 100  # Allow more hold buffers
-GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT: 100  # Allow more post-route buffers
+# PL_RESIZER_MAX_SLEW_MARGIN: 20  # More margin for max transition fixing
+# PL_RESIZER_MAX_CAP_MARGIN: 20   # More margin for max cap fixing
+# GLB_RESIZER_MAX_SLEW_MARGIN: 20 # For post-route fixing
+# GLB_RESIZER_MAX_CAP_MARGIN: 20  # For post-route fixing
+# GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT: 100
