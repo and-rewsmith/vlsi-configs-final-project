@@ -80,7 +80,7 @@ MACROS:
 
 # IMPORTANT FIX
 # This will only run one corner. Good for exploration, but not full sign-off!
-# STA_CORNERS: [nom_tt_025C_1v80]
+STA_CORNERS: [nom_ss_100C_1v60]
 
 PDN_MACRO_CONNECTIONS: ["mem_inst0 vccd1 vssd1 vccd1 vssd1", "mem_inst1 vccd1 vssd1 vccd1 vssd1"]
 VERILOG_POWER_DEFINE: USE_POWER_PINS
