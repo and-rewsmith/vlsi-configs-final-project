@@ -140,9 +140,9 @@ GRT_RESIZER_ALLOW_SETUP_VIOS: True
 RUN_POST_GRT_RESIZER_TIMING: True
 
 # below 100
-PL_RESIZER_MAX_SLEW_MARGIN: 75  # More margin for max transition fixing
+PL_RESIZER_MAX_SLEW_MARGIN: 90  # More margin for max transition fixing
 PL_RESIZER_MAX_CAP_MARGIN: 75   # More margin for max cap fixing
-GLB_RESIZER_MAX_SLEW_MARGIN: 75 # For post-route fixing
+GLB_RESIZER_MAX_SLEW_MARGIN: 90 # For post-route fixing
 GLB_RESIZER_MAX_CAP_MARGIN: 75  # For post-route fixing
 
 # more parameter for density
