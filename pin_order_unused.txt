@@ -1,0 +1,34 @@
+fetch enable i
+test en i
+alert minor o
+alert major o
+irq nm i
+irq fast 13
+irq fast 14
+---- top above the line
+
+instr addr o 30 -> 16
+instr addr o 13, 12, 11, 10, 9, 8, 6, 4, 3, 2, 1, 0
+data we o
+
+data req o
+instr req o
+
+-------------- right above the line
+
+data addr o 17, 13 10, 7, 6, 4, 0, 1
+
+hart id i 0
+
+
+------------ bottom above the line
+
+boot addr i 0
+boot addr i 1
+boot addr i 2
+boot addr i 3 -> 7
+
+
+
+------------ left above the line
+
